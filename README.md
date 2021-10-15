@@ -20,6 +20,8 @@ In the other terminal, you can do `npx json-server --watch data/db.json --port 9
 
 That will run JSON Server on port 9000 and have it look at the db.json file in the data folder
 
+After that you should be good to go! 
+
 ## Styles
 
 If you want to edit the styles, I put all of them in a styles folder and used Sass
