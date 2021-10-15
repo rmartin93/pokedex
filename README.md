@@ -6,7 +6,7 @@ Welcome to my super simple pokedex using React and JSON Server :)
 
 This project uses React for the frontend and JSON Server for a super simple example backend
 
-## How to start it up? 
+## How to start it up
 
 First, open your favorite editor and clone the repo
 
