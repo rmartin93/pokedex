@@ -1,0 +1,28 @@
+@use "../abstracts/mixins" as mix;
+
+#root {
+    height: 100%;
+}
+
+.App {
+    height: 100%; 
+}
+
+.content {
+    height: 100%;    
+}
+
+section > * {
+    padding: 2rem 0;
+}
+
+section > *, .navbar > * {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@include mix.breakpoint-down('large') {
+    section > *, .navbar > * {
+        padding: 0 2rem;
+    }
+}
