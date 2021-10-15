@@ -27,3 +27,8 @@ After that you should be good to go!
 If you want to edit the styles, I put all of them in a styles folder and used Sass
 
 You'll need another terminal open, and you can run `sass --watch src/styles/scss:src/styles/css`
+
+## Note
+
+I wrapped the useFetch hook in a 5 second setTimeout so that you can see the little charmander loading gif.
+Was it necessary? Absolutely. 
